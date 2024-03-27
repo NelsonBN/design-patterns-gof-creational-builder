@@ -5,7 +5,7 @@
 - [Example](#example)
 - [Components](#components)
 - [:warning: Important Consideration](#warning-important-consideration)
-- [Pos and Cons](#pos-and-cons)
+- [Pros and Cons](#pros-and-cons)
 - [Other Variations](#other-variations)
   - [Simplified Builder](#simplified-builder)
   - [Fluent Builder](#fluent-builder)
@@ -58,7 +58,7 @@ The Builder pattern is tasked with ensuring objects are only created in valid st
 
 
 
-## Pos and Cons
+## Pros and Cons
 
 - ✅ **Separation of Construction and Representation**: Allows building complex objects step by step and varying the product with the same construction process.
 - ✅ **Encapsulation of Code for Construction**: The actual construction code is isolated from the part of the code that uses the object, improving maintainability.
